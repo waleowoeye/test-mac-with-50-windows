@@ -31,7 +31,7 @@ for i in range(len(news_pages)):
 for j in news_pages:
     print(j)
     driver.get(j)
-    driver.switch_to.new_window('tab')
+    driver.switch_to.new_window('window')
 
 
 
